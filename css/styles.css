@@ -720,7 +720,6 @@ p {
   transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
-
 }
 
 .button-close {
@@ -736,7 +735,6 @@ p {
   margin-top: 8px;
   margin-left: auto;
   background-color: #fff;
-  
 }
 
 .close-icon {
@@ -760,9 +758,6 @@ p {
   margin-bottom: 0;
   gap: 93px;
 }
-
-
-
 
 .footer .logo {
   color: #fff;
@@ -853,15 +848,15 @@ p {
 .subscribe-title {
   display: block;
   font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  
-    color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: #ffffff;
 }
 
 .footer-form {
@@ -872,7 +867,7 @@ p {
 }
 .subscribe-input {
   margin: 0;
-  padding-top:  15px;
+  padding-top: 15px;
   padding-left: 16px;
   padding-bottom: 15px;
   min-width: 358px;
@@ -886,87 +881,83 @@ p {
 .subscribe-button {
   display: inline-flex;
   text-align: center;
-      background-color: var(--button-bg-color);
-      color: var(--primary-bg-color);
-      font-family: var(--main-font);
-      font-style: normal;
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 1.88;
-      padding: 10px 28px;
-      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-      border-radius: 4px;
-      border: none;
-      cursor: pointer;
-      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-      width: 200px;
-      height: 50px;
-  
-  }
-    
-  
+  background-color: var(--button-bg-color);
+  color: var(--primary-bg-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  padding: 10px 28px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 200px;
+  height: 50px;
+}
+
 .subscribe-button:hover,
 .subscribe-button:focus {
-      background-color: var(--button-bg-hover);
-      color: var(--btn-color);
-    }
+  background-color: var(--button-bg-hover);
+  color: var(--btn-color);
+}
 
-  .subscribe-icon {
-    margin-left: 10px;
-    fill: var(--primary-bg-color);
-  }
+.subscribe-icon {
+  margin-left: 10px;
+  fill: var(--primary-bg-color);
+}
 .form-title {
   display: inline-block;
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 2px;
   font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .form {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 12px;
-    padding-bottom: 40px;
-    min-width: 528px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 12px;
+  padding-bottom: 40px;
+  min-width: 528px;
 }
 
 .form-field {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
-
 .form-field input {
-    margin: 0;
-    padding: 11px 12px;
-    /* font-family: var(--main-font); */
-    letter-spacing: 0.02em;
-    font-size: 14px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding-left: 30px;
+  margin: 0;
+  padding: 11px 12px;
+  /* font-family: var(--main-font); */
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 30px;
 }
 
 .form-label {
   margin-bottom: 4px;
-  font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
-    color:var(--primary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
 }
-
 
 .form-input {
   margin-bottom: 10px;
@@ -983,16 +974,16 @@ p {
 
 .comment::placeholder {
   font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 .form-input:hover,
-.form-input:focus  {
-  border-color: var(--accent-color)
+.form-input:focus {
+  border-color: var(--accent-color);
 }
 
 .comment:hover {
@@ -1000,35 +991,33 @@ p {
 }
 .form-label-policy {
   font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-  
-    color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
 
 .button-submit {
   background-color: var(--button-bg-color);
-    color: var(--primary-bg-color);
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    padding: 10px 55px;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-    
+  color: var(--primary-bg-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  padding: 10px 55px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-submit:hover,
@@ -1036,8 +1025,6 @@ p {
   background-color: var(--button-bg-hover);
   color: var(--btn-color);
 }
-
- 
 
 .icon-holder {
   position: absolute;
@@ -1049,19 +1036,18 @@ p {
   height: 18px;
   padding-left: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .form-field {
-  position: relative
+  position: relative;
 }
-.form-input:focus~.icon-holder,
-.form-input:hover~.icon-holder {
+.form-input:focus ~ .icon-holder,
+.form-input:hover ~ .icon-holder {
   fill: var(--accent-color);
 }
 
 .checkbox {
-position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -1076,8 +1062,8 @@ position: absolute;
 .checkbox-label {
   display: inline-block;
   margin-bottom: 30px;
-    margin-right: 40px;
-    margin-left: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 .checkbox-icon {
   display: inline-block;
@@ -1089,12 +1075,12 @@ position: absolute;
 }
 
 .checkbox:checked ~ .checkbox-icon {
-background-color:#2196F3 ;
-border: transparent;
-background-image: url(../images/icons/policy.svg);
-background-size: contain;
-background-repeat: no-repeat;
-background-origin: border-box;
+  background-color: #2196f3;
+  border: transparent;
+  background-image: url(../images/icons/policy.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
 }
 .policy-link {
   color: var(--button-bg-color);
