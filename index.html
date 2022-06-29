@@ -624,6 +624,7 @@
                 placeholder="E-mail"
                 autocomplete="email"
               />
+              <button type="submit">Подписаться</button>
             </form>
           </div>
         </div>
@@ -636,34 +637,40 @@
             <use href="./images/close.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="form">
-          <div class="form-field">
-            <label for="name" class="form-label">Имя</label>
-            <input class="form-input" type="name" name="name" id="name" autocomplete="name" />
-          </div>
-          <div class="form-field">
-            <label for="tel" class="form-label">Телефон</label>
-            <input class="form-input" type="tel" name="tel" id="tel" autocomplete="tel" />
-          </div>
-          <div class="form-field">
-            <label for="email" class="form-label">Почта</label>
-            <input class="form-input" type="email" name="mail" id="email" autocomplete="email" />
-          </div>
-          <div class="form-field">
-            <label for="comment" class="form-label">Комментарий</label>
+            <label class="form-field">
+              <span class="icon"></span>
+              <span class="form-label">Имя</span>
+              <input class="form-input" type="name" name="name" id="name" autocomplete="name" />
+            </label>
+            <label class="form-field">
+              <span class="icon"></span>
+              <span class="form-label">Телефон</span>
+              <input class="form-input" type="tel" name="tel" id="tel" autocomplete="tel" />
+            </label>
+            <label class="form-field">
+              <span class="icon"></span>
+              <span class="form-label">Почта</span>
+              <input class="form-input" type="email" name="mail" id="email" autocomplete="email" />
+            </label>
+          <label class="form-field">
+            <span class="icon"></span>
+            <span class="form-label">Комментарий</span>
             <textarea
+            class="comment"
               name="comment"
-              id="comment"
-              cols="30"
-              rows="10"
               placeholder="Введите текст"
-            ></textarea>
-          </div>
-          <div class="form-field">
-            <label for="policy" class="form-label">Соглашаюсь с рассылкой и принимаю условия договора</label>
+              cols="30"
+              rows="10">
+          </textarea>
+          </label>
+          <label class="form-field">
+            <span class="icon"></span>
+            <span class="form-label-policy">Соглашаюсь с рассылкой и принимаю Условия договора</span>
             <input class="form-input" type="checkbox" name="policy" id="policy" />
-          </div>
-          <div class="form-field"><button type="submit">Отправить</button></div>
+          </label>
+          <button class="button-submit" type="submit">Отправить</button>
         </form>
       </div>
     </div>
