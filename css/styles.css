@@ -756,7 +756,11 @@ p {
   display: flex;
   flex-direction: row;
   margin-bottom: 0;
-  gap: 93px;
+   gap: 70px;
+}
+
+.join-section {
+  margin-right: 23px;
 }
 
 .footer .logo {
@@ -940,6 +944,10 @@ p {
   margin-bottom: 10px;
 }
 
+.form-field-comment {
+  margin-bottom: 20px;
+}
+
 .form-field input {
   margin: 0;
   padding: 11px 12px;
@@ -981,7 +989,7 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .comment::placeholder {
@@ -1040,8 +1048,8 @@ p {
 
 .icon-holder {
   position: absolute;
+  top: 0;
   left: 0;
-  right: 0;
   transform: translate(50%, 50%);
   display: inline-block;
   width: 18px;
@@ -1074,6 +1082,7 @@ p {
 }
 .checkbox-icon {
   display: inline-block;
+  text-align: center;
   width: 16px;
   height: 15px;
   background-color: var(--primary-bg-color);
