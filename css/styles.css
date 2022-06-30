@@ -962,7 +962,13 @@ p {
   color: var(--primary-text-color);
 }
 
+.form-holder {
+  position: relative;
+  
+  
+}
 .form-input {
+  width: 448px;
   height: 40px;
   margin-bottom: 10px;
   padding-left: 83px;
@@ -970,11 +976,12 @@ p {
 }
 .comment {
   height: 120px;
-  padding: 12px 16px;
+  
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 20px;
 }
 
 .comment::placeholder {
@@ -1033,19 +1040,16 @@ p {
 
 .icon-holder {
   position: absolute;
-  top: 50%;
-  left: 0px;
-  transform: translateY(5%);
+  left: 0;
+  right: 0;
+  transform: translate(50%, 50%);
   display: inline-block;
   width: 18px;
   height: 18px;
-  padding-left: 12px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field {
-  position: relative;
-}
+
 .form-input:focus ~ .icon-holder,
 .form-input:hover ~ .icon-holder {
   fill: var(--accent-color);
@@ -1089,4 +1093,5 @@ p {
 .policy-link {
   color: var(--button-bg-color);
   text-decoration-line: underline;
+  text-underline-position: under;
 }
