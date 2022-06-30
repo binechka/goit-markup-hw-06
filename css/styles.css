@@ -712,10 +712,9 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-
-  min-width: 528px;
+  width: 528px;
   min-height: 581px;
-
+  padding: 40px 40px;
   background-color: #fff;
   transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
@@ -731,10 +730,11 @@ p {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin-right: 8px;
-  margin-top: 8px;
-  margin-left: auto;
   background-color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-33%, 30%);
 }
 
 .close-icon {
@@ -777,6 +777,8 @@ p {
   color: var(--primary-bg-color);
 }
 .address .link {
+  display: inline-block;
+  width: 231px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -876,6 +878,13 @@ p {
   border-radius: 4px;
   background-color: var(--footer-bg-color);
   height: 50px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+    color: var(--primary-bg-color)
 }
 
 .subscribe-button {
@@ -911,8 +920,6 @@ p {
 }
 .form-title {
   display: inline-block;
-  margin-right: 40px;
-  margin-left: 40px;
   margin-top: 2px;
   font-family: var(--main-font);
   font-style: normal;
@@ -924,11 +931,7 @@ p {
   color: #212121;
 }
 .form {
-  margin-left: 40px;
-  margin-right: 40px;
   margin-top: 12px;
-  padding-bottom: 40px;
-  min-width: 528px;
 }
 
 .form-field {
@@ -960,11 +963,13 @@ p {
 }
 
 .form-input {
+  height: 40px;
   margin-bottom: 10px;
   padding-left: 83px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .comment {
+  height: 120px;
   padding: 12px 16px;
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1062,8 +1067,6 @@ p {
 .checkbox-label {
   display: inline-block;
   margin-bottom: 30px;
-  margin-right: 40px;
-  margin-left: 40px;
 }
 .checkbox-icon {
   display: inline-block;
@@ -1072,6 +1075,7 @@ p {
   background-color: var(--primary-bg-color);
   border: 2px solid #212121;
   border-radius: 2px;
+  margin-left: 12px;
 }
 
 .checkbox:checked ~ .checkbox-icon {
